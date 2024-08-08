@@ -199,12 +199,12 @@
 
 .drop {
     position: absolute;
-    background: rgba(255, 255, 255, 0.7); /* Color de las gotas */
-    border-radius: 50%; /* Cambia a un círculo */
-    width: 6px; /* Aumenta el ancho para parecerse más a gotas */
-    height: 12px; /* Ajusta la altura para un efecto de gota */
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 50%; 
+    width: 6px; 
+    height: 12px; 
     animation: fall linear infinite;
-    z-index: 1; /* Asegura que las gotas estén detrás del paraguas */
+    z-index: 1; 
 }
 
 
@@ -224,14 +224,36 @@ header {
 
 .umbrella {
     position: absolute;
-    font-size: 50px; /* Ajusta el tamaño del paraguas */
-    opacity: 0; /* Oculto por defecto */
-    transition: opacity 0.3s; /* Transición suave */
-    pointer-events: none; /* No interfiera con el cursor */
+    font-size: 50px; 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+    pointer-events: none;
 }
 
 
 header:hover .umbrella {
-    opacity: 1; /* Muestra el paraguas al pasar el cursor */
+    opacity: 1; 
 }
 
+@media screen and (max-width: 1020px) {
+    #about-me {
+        margin: 0 auto;
+        padding: 0 20px; 
+    }
+
+    #photo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #photo-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #skills {
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+}
