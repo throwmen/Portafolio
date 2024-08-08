@@ -20,4 +20,4 @@ Check out my portfolio here: [juandavidportafolio.netlify.app](https://juandavid
 Feel free to reach out if you have any questions or opportunities!
 
 - **Email**: juan.oliveros@eia.edu.co
-- **LinkedIn**: [Juan Oliveros](https://www.linkedin.com/in/juan-oliveros-a140b825b/)
+- **LinkedIn**: [Juan David Oliveros Morales](https://www.linkedin.com/in/juan-oliveros-a140b825b/)
